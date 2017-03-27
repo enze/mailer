@@ -1,0 +1,22 @@
+{
+    "name": "xb/mailer",
+    "description": "xbsoft mailer use swift mailer",
+    "type": "library",
+    "require": {
+		"php" : ">=5.6.0",
+        "swiftmailer/swiftmailer": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enze.wei",
+            "email": "enzewei@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload" : {
+		"psr-4" : {
+			"xb\\mailer\\" : "src/"
+		}
+	}
+}
