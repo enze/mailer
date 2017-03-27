@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
 		"php" : ">=5.6.0",
-        "swiftmailer/swiftmailer": "*"
+		"swiftmailer/swiftmailer" : "*"
     },
     "license": "MIT",
     "authors": [
